@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/home"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#353535",
+    "navigationBarTitleText": "斗 星 激 光 欢 迎 您",
+    "navigationBarTextStyle":"white"
+  }
+  
+}

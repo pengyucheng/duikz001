@@ -1,0 +1,29 @@
+<view class="home-container">
+  <view class='home-head'>
+    <swiper interval="6000" autoplay="true" duration="1000" circular="true" indicator-dots="true" indicator-active-color="#09bb07">
+      <swiper-item>
+        <image src="/images/1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/2.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/3.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view>
+    <view class="target-view">
+      <image src="/images/target.png" class="target-img" ></image>
+      <text class="target-txt">致力于为国内外客户提供一整套激光加工解决方案及相关配套设施</text>
+    </view>
+    <view class="address-view" bindtap="openLocation">
+      <image src="/images/address.png" class="address-img"></image>
+      <text class="border">深圳市坪山新区坑梓街道金沙社区东联工业区2号厂房</text>
+    </view>
+    <view class="phone-view" bindtap="makePhone">
+      <image src="/images/phone.png" class="phone-img"></image>
+      <text class="border"> 商务合作-谭先生-18825262776 </text>
+    </view>
+  </view>
+</view>
